@@ -1,0 +1,231 @@
+
+************** Begin Writing Data **************
+
+writeObject -- objectSize: 258 recordNumber: 0 totalRecordLength: 262
+
+writeObject -- objectSize: 258 recordNumber: 1 totalRecordLength: 262
+
+writeObject -- objectSize: 258 recordNumber: 2 totalRecordLength: 262
+
+writeObject -- objectSize: 258 recordNumber: 3 totalRecordLength: 262
+
+writeObject -- objectSize: 258 recordNumber: 4 totalRecordLength: 262
+
+writeObject -- objectSize: 258 recordNumber: 5 totalRecordLength: 262
+
+
+************** Read File and add Student objects to the HashMaps **************
+
+
+1. loadMaps: recordNumber 0
+
+2. loadMaps: 0 
+ Status           : 1
+ Student ID       : 1
+ Last name        : anderson                
+ First name       : andrew          
+ Major code       : csc
+ GPA              : 0.0
+ Email            : aanderson@university.edu        
+
+
+1. loadMaps: recordNumber 1
+
+2. loadMaps: 1 
+ Status           : 1
+ Student ID       : 2
+ Last name        : bierce                  
+ First name       : bill            
+ Major code       : mis
+ GPA              : 0.0
+ Email            : bbierce@university.edu          
+
+
+1. loadMaps: recordNumber 2
+
+2. loadMaps: 2 
+ Status           : 1
+ Student ID       : 3
+ Last name        : castenada               
+ First name       : carol           
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ccastenada@university.edu       
+
+
+1. loadMaps: recordNumber 3
+
+2. loadMaps: 3 
+ Status           : 1
+ Student ID       : 4
+ Last name        : durazo                  
+ First name       : deborah         
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ddurazo@university.edu          
+
+
+1. loadMaps: recordNumber 4
+
+2. loadMaps: 4 
+ Status           : 1
+ Student ID       : 5
+ Last name        : edwards                 
+ First name       : elaine          
+ Major code       : mis
+ GPA              : 0.0
+ Email            : eedwards@university.edu         
+
+
+1. loadMaps: recordNumber 5
+
+2. loadMaps: 5 
+ Status           : 1
+ Student ID       : 6
+ Last name        : fernandez               
+ First name       : franciso        
+ Major code       : csc
+ GPA              : 0.0
+ Email            : ffernandez@university.edu       
+
+
+1. loadMaps: recordNumber 6
+An EOFException occurred while reading data from the RandomAccessFile -- java.io.EOFException
+
+************** Displaying contents of idKeyedMap HashMap **************
+
+
+key: 1
+
+ Status           : 1
+ Student ID       : 1
+ Last name        : anderson                
+ First name       : andrew          
+ Major code       : csc
+ GPA              : 0.0
+ Email            : aanderson@university.edu        
+
+
+key: 2
+
+ Status           : 1
+ Student ID       : 2
+ Last name        : bierce                  
+ First name       : bill            
+ Major code       : mis
+ GPA              : 0.0
+ Email            : bbierce@university.edu          
+
+
+key: 3
+
+ Status           : 1
+ Student ID       : 3
+ Last name        : castenada               
+ First name       : carol           
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ccastenada@university.edu       
+
+
+key: 4
+
+ Status           : 1
+ Student ID       : 4
+ Last name        : durazo                  
+ First name       : deborah         
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ddurazo@university.edu          
+
+
+key: 5
+
+ Status           : 1
+ Student ID       : 5
+ Last name        : edwards                 
+ First name       : elaine          
+ Major code       : mis
+ GPA              : 0.0
+ Email            : eedwards@university.edu         
+
+
+key: 6
+
+ Status           : 1
+ Student ID       : 6
+ Last name        : fernandez               
+ First name       : franciso        
+ Major code       : csc
+ GPA              : 0.0
+ Email            : ffernandez@university.edu       
+
+
+************** Displaying contents of emailKeyedMap HashMap **************
+
+
+key: aanderson@university.edu        
+
+ Status           : 1
+ Student ID       : 1
+ Last name        : anderson                
+ First name       : andrew          
+ Major code       : csc
+ GPA              : 0.0
+ Email            : aanderson@university.edu        
+
+
+key: ccastenada@university.edu       
+
+ Status           : 1
+ Student ID       : 3
+ Last name        : castenada               
+ First name       : carol           
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ccastenada@university.edu       
+
+
+key: bbierce@university.edu          
+
+ Status           : 1
+ Student ID       : 2
+ Last name        : bierce                  
+ First name       : bill            
+ Major code       : mis
+ GPA              : 0.0
+ Email            : bbierce@university.edu          
+
+
+key: eedwards@university.edu         
+
+ Status           : 1
+ Student ID       : 5
+ Last name        : edwards                 
+ First name       : elaine          
+ Major code       : mis
+ GPA              : 0.0
+ Email            : eedwards@university.edu         
+
+
+key: ddurazo@university.edu          
+
+ Status           : 1
+ Student ID       : 4
+ Last name        : durazo                  
+ First name       : deborah         
+ Major code       : psy
+ GPA              : 0.0
+ Email            : ddurazo@university.edu          
+
+
+key: ffernandez@university.edu       
+
+ Status           : 1
+ Student ID       : 6
+ Last name        : fernandez               
+ First name       : franciso        
+ Major code       : csc
+ GPA              : 0.0
+ Email            : ffernandez@university.edu       
+

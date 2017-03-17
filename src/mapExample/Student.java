@@ -72,17 +72,17 @@ public class Student implements Serializable
 	
 	public void setLastName( String lastName ) 
 	{
-		this.lastName = adjustStringLength(lastName,24);
+		this.lastName = adjustStringLength(lastName,LASTNAME_LENGTH);
 	}
 	
 	public void setFirstName( String firstName ) 
 	{
-		this.firstName = adjustStringLength(firstName,24);
+		this.firstName = adjustStringLength(firstName,FIRSTNAME_LENGTH);
 	}
 	
 	public void setMajorCode( String majorCode ) 
 	{
-		this.majorCode = adjustStringLength(majorCode,3);
+		this.majorCode = adjustStringLength(majorCode,MAJORCODE_LENGTH);
 	}
 	
 	public void setGradePointAvg( double gradePointAvg ) 
@@ -92,7 +92,7 @@ public class Student implements Serializable
 	
 	public void setEmail( String email ) 
 	{
-		this.email = adjustStringLength(email,32);
+		this.email = adjustStringLength(email,EMAIL_LENGTH);
 	}
 	
 	// Define "getter" a.k.a. accessor methods.

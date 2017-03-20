@@ -69,13 +69,10 @@ public class ObjectRandomAccessFile extends RandomAccessFile {
 
   public void readAllObjects(ArrayList<Object> objArrayList) throws IOException, EOFException, Exception {
     //Since an ArrayList is passed by reference, this method can receive an ArrayList and modify it without having to return it.
-
     int recordNumber = 0;
-
     while (true) // seldom a good idea, but Java doesn't provide a method to detect EOF, so we keep reading until an EOFException is raised.
     {
       objArrayList.add(readObject(recordNumber));
-
       recordNumber++;
     }
   }
